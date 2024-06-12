@@ -45,8 +45,8 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     // CameraX core library using the camera2 implementation
-    val camerax_version = "1.4.0-beta01"
-    // val camerax_version = "1.4.0-alpha05"
+    val camerax_version = "1.4.0-beta01" // The broken version
+    // val camerax_version = "1.4.0-alpha05" // The working version
     // The following line is optional, as the core library is included indirectly by camera-camera2
     // implementation("androidx.camera:camera-core:${camerax_version}")
     implementation("androidx.camera:camera-camera2:${camerax_version}")
